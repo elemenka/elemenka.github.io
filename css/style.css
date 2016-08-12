@@ -5,9 +5,19 @@ body {
 	background-repeat: no-repeat;
 }
 
+p{
+		font-family:'Gotham'
+	}
+
+
 #allContent {
 	position:fixed;
 }
+
+#staff {
+	margin-top:50px;
+}
+
 
 .line {
 	height:2px;
@@ -15,6 +25,15 @@ body {
 	background:#ffffff;
 	margin-top:30px;
 	margin-left:43%;
+}
+
+.lowerline {
+	position:absolute;
+	height:2px;
+	width:100px;
+	background:#ffffff;
+	margin-top:30px;
+	margin-left:62%;
 }
 
 #notes {
@@ -31,9 +50,10 @@ body {
 }
 
 #trebleCleff {
+	position:absolute;
 	/*width:7%;*/
 	/*height:7%;*/
-	margin-top:-148px;
+	top:150px;
 	margin-left:42%;
 }
 
@@ -86,6 +106,11 @@ body {
 #noteFF {
 	position:absolute;
 	top:260px;
+}
+
+#noteCC {
+	position:absolute;
+	top:308px;
 }
 
 #Fsharp {
@@ -169,6 +194,11 @@ body {
 
 
 #yeah {
+	margin:0, auto;
+	margin-left:14%;
+	/*margin-left:40%;*/
+	top: 50%;
+	left: 100%;
 	color:#904dd9;
 	text-align:center;
 	font-size:2em;
@@ -179,37 +209,42 @@ body {
 	width:100%;
 	/*white-space: nowrap;*/
   	/*overflow: hidden;*/
+  	text-shadow: #ff00e5 1px 1px, #ff00e5 2px 2px, yellow 3px 3px, #14ccbb 4px 4px, #14ccbb 5px 5px, #14ccbb 6px 6px, #14ccbb 7px 7px, #14ccbb 8px 8px, #14ccbb 9px 9px;
   }
 
  #instructions {
- 	text-align:center;
- 	/*margin-left:10%;*/
- 	margin-top:150px;
+ 	/*text-align:center;*/
+ 	font-style: italic;
+ 	font-weight: bold;
+ 	margin-left:10%;
+ 	margin-top:180px;
  	color:white;
- 	font-size:1.5em;
+ 	font-size:1.8em;
  	letter-spacing: 2px;
  }
 
  #major_label {
+ 	/*margin-top:-20px;*/
  	margin-left:10%;
  	color:white;
- 	font-size:1.5em;
+ 	font-size:1.2em;
  	letter-spacing: 2px;
  }
 
  
 
  #minor_label {
+ 	margin-top:50px;
  	margin-left:10%;
  	color:white;
- 	font-size:1.5em;
+ 	font-size:1.2em;
  	letter-spacing: 2px;
  }
 
  #major_keys {
  	position:relative;
  	bottom:5%;
- 	top:60%;
+ 	top:50%;
  	width:100%;
  	margin-left:10%;
  }
@@ -220,6 +255,7 @@ body {
  }
 
  .majorButton {
+ 	margin-right:10px;
  	border:none;
  	border-radius:10%;
  	letter-spacing: 0.1em;
@@ -230,6 +266,7 @@ body {
 }
 
 .minorButton {
+	margin-right:10px;
 	border-radius:50%;
 	border:none;
 	letter-spacing: 0em;
@@ -290,6 +327,13 @@ body {
 
 }
 
+#seven {
+	display:none;
+}
+
+#noteCC {
+	display:none;
+}
 
 
 /*#flats {

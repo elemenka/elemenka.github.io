@@ -3,21 +3,108 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href = "css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<style>
+	
+	
+	</style>
 
 <title>whatever</title>
 </head>
 <body>
 <div id=allContent>
 
-<audio id="mysoundclip">
-   <source src="csharp.mp3" type="audio/mp3"></source>
+<audio id="C4">
+   <source src="sounds/C4-261.63.mp3" type="audio/mp3"></source>
 </audio>
 
-<div id=yeah>
+<audio id="E4">
+   <source src="sounds/E4-329.63.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="G4">
+   <source src="sounds/G4-392.0.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="C5">
+   <source src="sounds/C5-523.25.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="B4">
+   <source src="sounds/B4-493.88.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="B3">
+   <source src="sounds/B3-246.94.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="D4">
+   <source src="sounds/D4-293.66.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="D5">
+   <source src="sounds/D5-587.33.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="FsharpAudio">
+   <source src="sounds/Fsharp4-369.99.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="A4">
+   <source src="sounds/A4-440.0.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="E5">
+   <source src="sounds/E5-659.26.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="CsharpAudio">
+   <source src="sounds/Csharp5-554.37.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="GsharpAudio">
+   <source src="sounds/Gsharp4-415.3.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="DsharpAudio">
+   <source src="sounds/Dsharp4-311.13.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="DsharpAudio2">
+   <source src="sounds/Dsharp5-622.25.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="AsharpAudio">
+   <source src="sounds/Asharp4-466.16.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="Fsharp5">
+   <source src="sounds/Fsharp5.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="Csharp4">
+   <source src="sounds/Csharp4-277.18.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="F4">
+   <source src="sounds/F4-349.23.mp3" type="audio/mp3"></source>
+</audio>
+
+<audio id="F5">
+   <source src="sounds/F5.mp3" type="audio/mp3"></source>
+</audio>
+
+
+
+
+<div class= "animated flash" id=yeah>
 		<h1>yeah yeah yeah</h1>
 </div>
 
 <div id=staff>
+
 		
 		<div class="line" id=two></div>
 		<!-- <img class=note src="img/note.png">  -->
@@ -28,11 +115,16 @@
 		<div class="line" id=five></div>
 		<!-- <img class=note src="img/note.png">  -->
 		<div class="line" id=six></div>
+		<div class="lowerline" id=seven></div>
 </div>
 
+
+
 <div>
-	<img id=trebleCleff src="img/treble_cleff.png">
-</div>
+		<img id=trebleCleff src="img/treble_cleff.png">
+		</div>
+
+
 
 <div id=sharps>
 	<img id=Fsharp src="img/sharp.png">
@@ -54,19 +146,20 @@
 
 <div id=notes>
 	<img id=noteF class=note src="img/note.png">
-	<img id=noteE class=note src="img/note_02.png"> 
+	<img id=noteE class=note src="img/note.png"> 
 	<img id=noteD class=note src="img/note.png">
-	<img id=noteC class=note src="img/note_02.png">  
+	<img id=noteC class=note src="img/note.png">  
 	<img id=noteB class=note src="img/note.png"> 
-	<img id=noteA class=note src="img/note_02.png"> 
+	<img id=noteA class=note src="img/note.png"> 
 	<img id=noteG class=note src="img/note.png"> 
-	<img id=noteFF class=note src="img/note_02.png"> 
+	<img id=noteFF class=note src="img/note.png"> 
 	<img id=noteEE class=note src="img/note.png"> 
-	<img id=noteDD class=note src="img/note_02.png"> 
+	<img id=noteDD class=note src="img/note.png"> 
+	<img id=noteCC class=note src="img/note.png"> 
 </div>
 
 
-<p id=instructions> Choose a chord!</p>
+<p id=instructions> CHOOSE A CHORD!</p>
 
 <div id=major_label>
 	<p id=minor>MAJOR</p>
@@ -79,7 +172,7 @@
 	<button class=majorButton id=AM> AM </button>
 	<button class=majorButton id=EM> EM </button>
 	<button class=majorButton id=BM> BM </button>
-	<button class=majorButton id=FsharpMajor> F# </button>
+	<button class=majorButton id=FsharpMajor> F#M </button>
 	<button class=majorButton id=G♭M> G&#9837M </button>
 	<button class=majorButton id=D♭M> D&#9837M </button>
 	<button class=majorButton id=A♭M> A&#9837M </button>
