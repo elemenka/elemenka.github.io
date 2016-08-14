@@ -41,6 +41,9 @@ $("#resetButton").click(function(){
 
 });
 
+
+  // $("#noteCC").fadeIn(500);
+
  // var audio = $("#mysoundclip")[0];
  //      console.log(audio);
  //  $("CM").click(function() {
@@ -97,13 +100,13 @@ $("#CM").click(function(){
         $('#Csharp4')[0].pause();
         $('#F4')[0].pause();
         $("#seven").show();
-        $("#noteCC").fadeIn(500);
+        $("#noteCC").show();
         $('#C4')[0].play();
-        $("#noteEE").fadeIn(500);
+        $("#noteEE").show();
         $('#E4')[0].play();
-        $("#noteG").fadeIn(1000);
+        $("#noteG").show();
         $('#G4')[0].play();
-        $("#noteC").fadeIn(1500);
+        $("#noteC").show();
         $('#C5')[0].play();
         $("#GM").css("background-color", "#ff00e5");
         $("#CM").css("background-color", "white");
