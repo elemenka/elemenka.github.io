@@ -110,7 +110,7 @@ $("#CM").click(function(){
         $('#C5')[0].play();
         $("#GM").css("background-color", "#ff00e5");
         $("#CM").css("background-color", "white");
-        $("#CM").css("color", "pink");
+        $("#CM").css("color", "#ff00e5");
        
         //  location.reload();
         
@@ -169,8 +169,8 @@ $("#GM").click(function(){
         $('#D4')[0].play();
         $("#Fsharp").show();
         $("#CM").css("background-color", "#ff00e5");
-        $("#CM").css("color", "white");
-        $("#GM").css("background-color", "red");
+        $("#GM").css("color", "#ff00e5");
+        $("#GM").css("background-color", "white");
 
       });
 
@@ -227,7 +227,9 @@ $("#DM").click(function(){
         $("#noteD").show();
         $("#Fsharp").show();
         $("#Csharp").show();
-        $("#DM").css("background-color", "red");
+        $("#DM").css("color", "#ff00e5");
+        $("#DM").css("background-color", "white");
+
 
       });
 
@@ -284,7 +286,8 @@ $("#AM").click(function(){
         $("#Fsharp").show();
         $("#Csharp").show();
         $("#Gsharp").show();
-        $("#AM").css("background-color", "red");
+        $("#AM").css("color", "#ff00e5");
+        $("#AM").css("background-color", "white");
 
       });
 
@@ -341,7 +344,8 @@ $("#EM").click(function(){
         $("#Csharp").show();
         $("#Gsharp").show();
         $("#Dsharp").show();
-        $("#EM").css("background-color", "red");
+        $("#EM").css("color", "#ff00e5");
+        $("#EM").css("background-color", "white");
 
       });
 
@@ -398,7 +402,8 @@ $("#BM").click(function(){
         $("#Gsharp").show();
         $("#Dsharp").show();
         $("#Asharp").show();
-        $("#BM").css("background-color", "red");
+        $("#BM").css("color", "#ff00e5");
+        $("#BM").css("background-color", "white");
 
 
       });
@@ -456,7 +461,8 @@ $("#FsharpMajor").click(function(){
         $("#Dsharp").show();
         $("#Asharp").show();
         $("#Esharp").show();
-        $("#FsharpMajor").css("background-color", "red");
+        $("#FsharpMajor").css("color", "#ff00e5");
+        $("#FsharpMajor").css("background-color", "white");
 
 
       });
@@ -514,7 +520,8 @@ $("#G♭M").click(function(){
         $("#Dflat").show();
         $("#Gflat").show();
         $("#Cflat").show();
-        $("#G♭M").css("background-color", "red");
+        $("#G♭M").css("color", "#ff00e5");
+        $("#G♭M").css("background-color", "white");
 
  });
 
@@ -570,7 +577,8 @@ $("#D♭M").click(function(){
         $("#Aflat").show();
         $("#Dflat").show();
         $("#Gflat").show();
-        $("#D♭M").css("background-color", "red");
+        $("#D♭M").css("color", "#ff00e5");
+        $("#D♭M").css("background-color", "white");
 
 
       });
@@ -628,7 +636,8 @@ $("#A♭M").click(function(){
         $("#Eflat").show();
         $("#Aflat").show();
         $("#Dflat").show();
-        $("#A♭M").css("background-color", "red");
+        $("#A♭M").css("color", "#ff00e5");
+        $("#A♭M").css("background-color", "white");
        
       });
 
@@ -686,7 +695,8 @@ $("#E♭M").click(function(){
         $('#AsharpAudio')[0].play();
         $('#DsharpAudio2')[0].play();
 		$("#Aflat").show();
-        $("#E♭M").css("background-color", "red");
+        $("#E♭M").css("color", "#ff00e5");
+        $("#E♭M").css("background-color", "white");
        
       });
 
@@ -743,7 +753,8 @@ $("#B♭M").click(function(){
         $('#F5')[0].play();
         $("#Bflat").show();
         $("#Eflat").show();
-        $("#B♭M").css("background-color", "red");
+        $("#B♭M").css("color", "#ff00e5");
+        $("#B♭M").css("background-color", "white");
        
       });
 
@@ -803,7 +814,8 @@ $("#FM").click(function(){
         $("#Bflat").show();
         $('#F5')[0].play();
         $("#noteF").show();
-        $("#FM").css("background-color", "red");
+        $("#FM").css("color", "#ff00e5");
+        $("#FM").css("background-color", "white");
        
       });
 
@@ -860,7 +872,8 @@ $("#Am").click(function(){
         $("#noteC").show();
         $('#E5')[0].play();
         $("#noteE").show();
-        $("#Am").css("background-color", "blue");
+        $("#Am").css("color", "#14ccbb");
+        $("#Am").css("background-color", "white");
 
       });
 
@@ -917,7 +930,8 @@ $("#Em").click(function(){
         $("#noteB").show();
         $("#noteE").show();
         $("#Fsharp").show();
-        $("#Em").css("background-color", "blue");
+        $("#Em").css("color", "#14ccbb");
+        $("#Em").css("background-color", "white");
 
       });
 
@@ -977,7 +991,8 @@ $("#Bm").click(function(){
         $("#noteF").show();
         $("#Fsharp").show();
         $("#Csharp").show();
-        $("#Bm").css("background-color", "blue");
+        $("#Bm").css("color", "#14ccbb");
+        $("#Bm").css("background-color", "white");
 
       });
 
@@ -1040,7 +1055,8 @@ $("#FsharpMinor").click(function(){
         $("#Fsharp").show();
         $("#Csharp").show();
         $("#Gsharp").show();
-        $("#FsharpMinor").css("background-color", "blue");
+        $("#FsharpMinor").css("color", "#14ccbb");
+        $("#FsharpMinor").css("background-color", "white");
 
       });
 
@@ -1105,7 +1121,8 @@ $("#CsharpMinor").click(function(){
         $("#Csharp").show();
         $("#Gsharp").show();
         $("#Dsharp").show();
-        $("#CsharpMinor").css("background-color", "blue");
+        $("#CsharpMinor").css("color", "#14ccbb");
+        $("#CsharpMinor").css("background-color", "white");
 
       });
 
@@ -1168,7 +1185,8 @@ $("#GsharpMinor").click(function(){
         $("#Gsharp").show();
         $("#Dsharp").show();
         $("#Asharp").show();
-        $("#GsharpMinor").css("background-color", "blue");
+        $("#GsharpMinor").css("color", "#14ccbb");
+        $("#GsharpMinor").css("background-color", "white");
 
       });
 
@@ -1234,8 +1252,8 @@ $("#DsharpMinor").click(function(){
         $("#Dsharp").show();
         $("#Asharp").show();
         $("#Esharp").show();
-        $("#DsharpMinor").css("background-color", "blue");
-
+        $("#DsharpMinor").css("color", "#14ccbb");
+        $("#DsharpMinor").css("background-color", "white");
       });
 
 $("#E♭m").click(function(){
@@ -1301,7 +1319,8 @@ $("#E♭m").click(function(){
         $("#Dflat").show();
         $("#Gflat").show();
         $("#Cflat").show();
-        $("#E♭m").css("background-color", "blue");
+        $("#E♭m").css("color", "#14ccbb");
+        $("#E♭m").css("background-color", "white");
 
       });
 
@@ -1365,7 +1384,8 @@ $("#B♭m").click(function(){
         $("#Aflat").show();
         $("#Dflat").show();
         $("#Gflat").show();
-        $("#B♭m").css("background-color", "blue");
+        $("#B♭m").css("color", "#14ccbb");
+        $("#B♭m").css("background-color", "white");
 
       });
 
@@ -1430,7 +1450,8 @@ $("#Fm").click(function(){
         $("#Eflat").show();
         $("#Aflat").show();
         $("#Dflat").show();
-        $("#Fm").css("background-color", "blue");
+        $("#Fm").css("color", "#14ccbb");
+        $("#Fm").css("background-color", "white");
 
       });
 
@@ -1495,7 +1516,8 @@ $("#Cm").click(function(){
         $("#Bflat").show();
         $("#Eflat").show();
         $("#Aflat").show();
-        $("#Cm").css("background-color", "blue");
+        $("#Cm").css("color", "#14ccbb");
+        $("#Cm").css("background-color", "white");
 
       });
 
@@ -1556,8 +1578,8 @@ $("#Gm").click(function(){
         $("#noteD").show();
         $("#Bflat").show();
         $("#Eflat").show();
-   		$("#Gm").css("background-color", "blue");
-
+   		$("#Gm").css("color", "#14ccbb");
+        $("#Gm").css("background-color", "white");
       });
 
 $("#Dm").click(function(){
@@ -1618,7 +1640,8 @@ $("#Dm").click(function(){
         $("#noteA").show();
         $("#noteD").show();
         $("#Bflat").show();
-        $("#Dm").css("background-color", "blue");
+        $("#Dm").css("color", "#14ccbb");
+        $("#Dm").css("background-color", "white");
 
       });
 
