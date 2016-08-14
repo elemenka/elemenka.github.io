@@ -1172,6 +1172,72 @@ $("#GsharpMinor").click(function(){
 
       });
 
+$("#DsharpMinor").click(function(){
+        $(".majorButton").css("background-color", "#ff00e5");
+        $(".majorButton").css("color", "white");
+        $(".minorButton").css("background-color", "#14ccbb");
+        $(".minorButton").css("color", "white");
+        $('#C4')[0].pause();
+        $('#E4')[0].pause();
+        $('#G4')[0].pause();
+        $('#C5')[0].pause();
+        $('#B3')[0].pause();
+        $('#B4')[0].pause();
+        $('#D4')[0].pause();
+        $('#FsharpAudio')[0].pause();
+        $('#A4')[0].pause();
+        $('#E5')[0].pause();
+        $('#CsharpAudio')[0].pause();
+        $('#GsharpAudio')[0].pause();
+        $('#DsharpAudio')[0].pause();
+        $('#DsharpAudio2')[0].pause();
+        $('#AsharpAudio')[0].pause();
+        $('#D5')[0].pause();
+        $('#Fsharp5')[0].pause();
+        $('#Csharp4')[0].pause();
+        $('#F4')[0].pause();
+        $('#F5')[0].pause();
+        $("#Bflat").hide();
+        $("#Eflat").hide();
+        $("#Aflat").hide();
+        $("#Dflat").hide();
+        $("#Gflat").hide();
+        $("#Cflat").hide();
+        $("#noteG").hide();
+        $("#noteB").hide();
+        $("#noteE").hide();
+        $("#noteEE").hide();
+        $("#noteDD").hide();
+        $("#noteFF").hide();
+        $("#noteA").hide();
+        $("#noteC").hide();
+        $("#noteD").hide();
+        $("#noteF").hide();
+        $("#Asharp").hide();
+        $("#seven").hide();
+        $("#noteCC").hide();
+        $("#Csharp").hide();
+        $("#Gsharp").hide();
+        $("#Dsharp").hide();
+        $("#Esharp").hide();
+        $('#DsharpAudio')[0].play();
+        $('#FsharpAudio')[0].play();
+        $('#AsharpAudio')[0].play();
+        $('#DsharpAudio2')[0].play();
+        $("#noteDD").show();
+        $("#noteFF").show();
+        $("#noteA").show();
+        $("#noteD").show();
+        $("#Fsharp").show();
+        $("#Csharp").show();
+        $("#Gsharp").show();
+        $("#Dsharp").show();
+        $("#Asharp").show();
+        $("#Esharp").show();
+        $("#DsharpMinor").css("background-color", "blue");
+
+      });
+
 $("#E♭m").click(function(){
         $(".majorButton").css("background-color", "#ff00e5");
         $(".majorButton").css("color", "white");
