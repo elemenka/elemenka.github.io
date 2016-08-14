@@ -296,8 +296,8 @@ p{
 }
 
 #resetButton {
-	position:absolute;
-	top:25%;
+	position:relative;
+	top:-518px;
 	margin-left:68%;
  	border:none;
  	border-radius:100%;
