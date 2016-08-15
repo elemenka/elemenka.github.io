@@ -824,7 +824,7 @@ $("#Am").click(function(){
         $(".majorButton").css("background-color", "#ff00e5");
         $(".majorButton").css("color", "white");
         $(".minorButton").css("background-color", "#14ccbb");
-        $(".majorButton").css("color", "white");
+        $(".minorButton").css("color", "white");
         $('#C4')[0].pause();
         $('#E4')[0].pause();
         $('#G4')[0].pause();
